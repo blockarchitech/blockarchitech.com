@@ -1,0 +1,19 @@
+body {
+	background-color: #1f1f1f;
+	font-family: "Roboto Mono";
+}
+
+h1 { 
+	color: #fff;
+}
+
+.parent { 
+	display: grid; 
+	grid-template-columns: repeat(3, 1fr); 
+	grid-template-rows: repeat(10, 1fr); 
+	grid-column-gap: 8px;
+	grid-row-gap: 8px; 
+	}
+	.div1 { grid-area: 6 / 2 / 7 / 3; } 
+	.div2 { grid-area: 4 / 2 / 5 / 3; } 
+	.div3 { grid-area: 10 / 1 / 11 / 2; } 
